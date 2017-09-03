@@ -1,0 +1,132 @@
+﻿html, body, #mapdisplay {
+margin: 0;
+padding: 0;
+height: 100%;
+}
+
+#mapdisplay {
+    float:right;
+    width:100%;
+    position:relative;
+   z-index:50;
+}
+
+#simple-menu {
+    background:url("btn.png") no-repeat     center; 
+    -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+ background-size: cover;
+height:100px;
+width:60px;
+   margin-top:22%;
+   position:absolute;
+   z-index:100;
+}
+
+    #simple-menu:hover {
+        background:url("btn1.png") no-repeat     center; 
+        -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+ background-size: cover;
+        cursor:pointer;
+        
+    }
+
+#logo {
+    position:fixed;
+   z-index:150;
+   float:right;
+   width:300px;
+   margin-top:44%;
+   margin-left:77.5%;
+}
+
+
+
+
+#info {
+    position:absolute;
+   z-index:150;
+   background-color:white;
+   opacity:0.8;
+   border-color:#213a10;
+   border-style:solid;
+   border-width:1px;
+   border-bottom-right-radius:25px;
+   border-bottom-left-radius:25px;
+   border-top:none;
+    width:47%;
+    margin-left:25%;
+    padding:20px;
+    text-align:center;
+    font-family:Tahoma; 
+    line-height:25px;
+
+}
+
+
+#sidr_logo {
+    text-align:center;
+    margin-top:10px;
+}
+
+#sidr_img {
+    width:220px;
+}
+
+#menu_items {
+    margin:15px;
+    margin-top:45px;
+    padding-bottom:30px;
+
+}
+
+#origin, #destination {
+    background:#8d9747;
+    margin-top:7px;
+}
+
+#submit {
+    margin-top:10px;
+    background-color:#213a10;
+    border-color:#d4ce8e;
+    border-width:2px;
+    border-style:solid;
+    width:100%;
+    height:35px;
+    color:#d4ce8e;
+    font-size:15px;
+    margin-top:20px;
+}
+
+    #submit:hover {
+        background-color:#d4ce8e;
+        color:#213a10;
+        cursor:pointer;
+    }
+
+#legend {
+        margin:15px;
+}
+
+#legend_text {
+    color:#d4ce8e;
+    font-size:20px;
+}
+
+#error, #message {
+    display:none;
+}
+
+
+@media screen and (-ms-view-state: snapped) {
+    submit {
+        background-color:red;
+    }
+}
+
+pac-container {
+    background-color:red;
+}

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FILIP</Machine>
+    <WindowsUser>Filip</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bluebus.png">
+      <PackagePath>bluebus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\btn.png">
+      <PackagePath>btn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\btn1.png">
+      <PackagePath>btn1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\busk_final.png">
+      <PackagePath>busk_final.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\error.png">
+      <PackagePath>error.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\images\markers\end_marker.png">
+      <PackagePath>images\markers\end_marker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\images\markers\gps_marker.png">
+      <PackagePath>images\markers\gps_marker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\images\markers\medium_marker.png">
+      <PackagePath>images\markers\medium_marker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\images\markers\medium_marker1.png">
+      <PackagePath>images\markers\medium_marker1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\images\markers\start_marker.png">
+      <PackagePath>images\markers\start_marker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\images\markers\walk_marker.png">
+      <PackagePath>images\markers\walk_marker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\images\widelogo.png">
+      <PackagePath>images\widelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\map.html">
+      <PackagePath>map.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\13.xml">
+      <PackagePath>js\13.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\15.xml">
+      <PackagePath>js\15.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\15a.xml">
+      <PackagePath>js\15a.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\16.xml">
+      <PackagePath>js\16.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\17.xml">
+      <PackagePath>js\17.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\19.xml">
+      <PackagePath>js\19.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\2.xml">
+      <PackagePath>js\2.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\21.xml">
+      <PackagePath>js\21.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\22.xml">
+      <PackagePath>js\22.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\22a.xml">
+      <PackagePath>js\22a.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\23.xml">
+      <PackagePath>js\23.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\24.xml">
+      <PackagePath>js\24.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\26.xml">
+      <PackagePath>js\26.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\2a.xml">
+      <PackagePath>js\2a.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\3.xml">
+      <PackagePath>js\3.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\31.xml">
+      <PackagePath>js\31.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\33.xml">
+      <PackagePath>js\33.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\35.xml">
+      <PackagePath>js\35.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\3b.xml">
+      <PackagePath>js\3b.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\4.xml">
+      <PackagePath>js\4.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\41.xml">
+      <PackagePath>js\41.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\42.xml">
+      <PackagePath>js\42.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\44.xml">
+      <PackagePath>js\44.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\4a.xml">
+      <PackagePath>js\4a.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\5.xml">
+      <PackagePath>js\5.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\50.xml">
+      <PackagePath>js\50.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\57.xml">
+      <PackagePath>js\57.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\7.xml">
+      <PackagePath>js\7.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\7b.xml">
+      <PackagePath>js\7b.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\8.xml">
+      <PackagePath>js\8.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\9.xml">
+      <PackagePath>js\9.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\Mileniumski.xml">
+      <PackagePath>js\Mileniumski.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\map.js">
+      <PackagePath>map.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\nprogress.js">
+      <PackagePath>nprogress.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\sidr.js">
+      <PackagePath>sidr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\map.css">
+      <PackagePath>map.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\nprogress.css">
+      <PackagePath>nprogress.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\sidr.css">
+      <PackagePath>sidr.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

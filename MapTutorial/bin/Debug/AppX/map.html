@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?sensor=true&libraries=visualization,geometry,places">
+    </script>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <link href="map.css" rel="stylesheet" />
+    <script src="map.js"></script>
+    <script src="sidr.js"></script>
+    <link href="sidr.css" rel="stylesheet" />
+    <script src="nprogress.js"></script>
+    <link href="nprogress.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
+</head>
+<body>
+        <div id="info" >
+            <label >To use this application you have to choose start and end point by clicking on the map or by using the options in the menu on the left.</label> <br />
+            <div id="error" style="margin-top:30px; color:red">
+                <img src="error.png" style="width:25px; margin-right:20px;" />
+                <label id="txt_err"></label>
+            </div>
+            <div id="message" style="margin-top:30px;">
+                <label id="txt_msg"></label>
+            </div>
+        </div>
+
+        <div id="simple-menu"></div>
+
+        <div id="mapdisplay"></div>
+
+        <div id="sidr">
+            <div id="sidr_logo">
+                <img id="sidr_img" src="busk_final.png"/>
+            </div>
+
+            <div id="menu_items">
+                Choose start address:<br />
+                <input type="text" id="origin" onkeydown="textChange1()"/>
+                or use the current location by GPS 
+                <input type="checkbox" id="gps_check" onclick="getLocation()" />
+                <br /><br /><br />
+                Choose end address:<br />
+                <input type="text" id="destination" onkeydown="textChange2()"/>
+            
+                <input type="submit" id="submit" value="find route" onclick="getCoordinatesByAddress()" />
+            </div>
+
+            <div id="legend">
+                <div style="margin-bottom:20px"><label id="legend_text">Map legend:</label></div>
+                
+                <table border="0">
+                    <tr>
+                        <td style="width:50px;"><img src="images/markers/start_marker.png" style="width:32px; padding-bottom:5px;" /></td>
+                        <td>start bus station</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/markers/end_marker.png" style="width:32px; padding-bottom:5px;" /></td>
+                        <td>end bus station</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/markers/medium_marker1.png" style="width:32px; padding-bottom:5px;" /></td>
+                        <td>middle bus station</td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/markers/walk_marker.png" style="width:32px;" /></td>
+                        <td>selected points</td>
+                    </tr>
+                </table>
+            </div>   
+        </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#simple-menu').sidr();
+        });
+    </script>
+    <label id="lab"></label>
+</body>
+</html>

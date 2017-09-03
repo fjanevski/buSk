@@ -1,0 +1,13 @@
+C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bin\Debug\resources.pri
+C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bin\Debug\AppxManifest.xml
+C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bin\Debug\BuSk.build.appxrecipe
+C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bld\Debug\priconfig.xml.intermediate
+C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bld\Debug\layout.resfiles.intermediate
+C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bld\Debug\resources.resfiles.intermediate
+C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bld\Debug\pri.resfiles.intermediate
+C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bld\Debug\priconfig.xml
+C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bld\Debug\layout.resfiles
+C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bld\Debug\resources.resfiles
+C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bld\Debug\pri.resfiles
+C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bld\Debug\LanguageQualifiers.txt
+C:\Users\Filip\Desktop\APP\MapTutorial\MapTutorial\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>a3a5a48b-23bb-4acf-a799-c9cf8af981fd</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>MapTutorial_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="bluebus.png" />
+    <Content Include="btn.png" />
+    <Content Include="btn1.png" />
+    <Content Include="busk_final.png" />
+    <Content Include="default.html" />
+    <Content Include="error.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\markers\end_marker.png" />
+    <Content Include="images\markers\gps_marker.png" />
+    <Content Include="images\markers\medium_marker.png" />
+    <Content Include="images\markers\medium_marker1.png" />
+    <Content Include="images\markers\start_marker.png" />
+    <Content Include="images\markers\walk_marker.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="images\widelogo.png" />
+    <Content Include="js\13.xml" />
+    <Content Include="js\15.xml" />
+    <Content Include="js\15a.xml" />
+    <Content Include="js\16.xml" />
+    <Content Include="js\17.xml" />
+    <Content Include="js\19.xml" />
+    <Content Include="js\2.xml" />
+    <Content Include="js\21.xml" />
+    <Content Include="js\22.xml" />
+    <Content Include="js\22a.xml" />
+    <Content Include="js\23.xml" />
+    <Content Include="js\24.xml" />
+    <Content Include="js\26.xml" />
+    <Content Include="js\2a.xml" />
+    <Content Include="js\3.xml" />
+    <Content Include="js\31.xml" />
+    <Content Include="js\33.xml" />
+    <Content Include="js\35.xml" />
+    <Content Include="js\3b.xml" />
+    <Content Include="js\4.xml" />
+    <Content Include="js\41.xml" />
+    <Content Include="js\42.xml" />
+    <Content Include="js\44.xml" />
+    <Content Include="js\4a.xml" />
+    <Content Include="js\5.xml" />
+    <Content Include="js\50.xml" />
+    <Content Include="js\57.xml" />
+    <Content Include="js\7.xml" />
+    <Content Include="js\7b.xml" />
+    <Content Include="js\8.xml" />
+    <Content Include="js\9.xml" />
+    <Content Include="js\default.js" />
+    <Content Include="css\default.css" />
+    <Content Include="js\Mileniumski.xml" />
+    <Content Include="map.css" />
+    <Content Include="map.html" />
+    <Content Include="map.js" />
+    <Content Include="nprogress.css" />
+    <Content Include="nprogress.js" />
+    <Content Include="sidr.css" />
+    <Content Include="sidr.js" />
+    <None Include="MapTutorial_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="bld\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>
